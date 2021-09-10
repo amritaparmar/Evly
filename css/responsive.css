@@ -1,0 +1,331 @@
+/*! 
+
+=========================================================
+
+ *Evly Responsive
+
+=========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+
+
+@media (max-width: 1440px){
+    body{width: 100%;}
+    .header{width: 100%;}
+    .dealer_text{padding: 2.3% 0 4% 150px;}
+}
+@media (max-width: 1431px){
+    .left_section{padding: 95px 80px;}
+    .header_right {margin-left: 0;}
+    .bannerleft_section{padding-left: 120px;}
+    .car_left h3{font-size: 30px;}
+}
+@media (max-width: 1345px){
+    .login_details .btn{padding: 8.5px 40px;}
+    .search_bar .form-control{width: 500px;}
+    .bannerleft_section .blue_btn, .bannerleft_section .white_btn{padding: 20px 35px;}
+    .search_bar .form-control {width: 475px;}
+    .bannerright_section{padding-left: 120px;}
+    .category_list .category_title .title_h5{padding-right: 35px;}
+}
+@media (max-width: 1320px){
+    .left_section{padding: 95px 65px;}
+    .bannerleft_section h2{font-size: 42px;line-height: 52px;}
+    .searchdata_section .search_bar .form-control {width: 904px;}
+}
+@media (max-width: 1280px){
+    .header {padding: 27px 0px 20px 0px;}
+    .header .col-lg-3 img{margin-left: 60px;}
+    .bannerleft_section .blue_btn, .bannerleft_section .white_btn {padding: 20px 28px;}
+    .bannerright_section{padding-left:85px;}
+    .search_bar .form-control {width: 450px;}
+    .searchdata_section .search_bar .form-control {width: 826px;}
+    .car_left h3 {font-size: 26px;}
+    .floating_box h2{font-size: 28px;line-height: 36px;}
+    .floating_box h6{font-size: 17px;line-height: 24px;}
+    .floating_box h6 br{display: none;}
+}
+@media (max-width: 1199px){
+    .left_section {padding: 65px 50px;}
+    .login_details .btn {padding: 8.5px 45px;}
+    .hometext h4{font-size: 20px;line-height: 30px;}
+    .adv_boxes h6{font-size: 18px;line-height: 26px;}
+    .adv_boxes p{font-size: 14px;line-height: 22px;}
+    .advantages_box:before{top: 55px;left: 49%;}
+    .advantages_box:after{top: 35px;height: 535px;}
+    .elvy_right p{font-size: 16px;line-height: 30px;}
+    .elvy_right p br{display: none;}
+    .elvy_advantages h3{font-size: 32px;line-height: 125%;margin-bottom: 25px;}
+    .accordian_details{width: 70%;}
+    .faq-accordion .accordion .accordion-title{font-size: 16px;line-height: 24px;}
+    .bannerleft_section .blue_btn, .bannerleft_section .white_btn {padding: 20px 25px;}
+    .floating_cta.finanace_boxes h6{margin-bottom: 15px;}
+    .finance_greybox .form-control, .finance_greybox .form-control option{width: 260px;}
+    .floating_cta.finanace_boxes h2{line-height: 30px;}
+    .car_testi_box p{min-height: 332px;}
+
+}
+@media (max-width: 1170px){
+    .login_details .btn {padding: 8.5px 45px;width: 100%;}
+    .right_section h1{font-size: 42px;line-height: 42px;}
+    .login_details .btn {padding: 8.5px 55px;}
+    .login_details .white_btn{margin-right: 0; margin-bottom: 15px;}
+    .header .col-lg-3, .header .col-lg-9{flex: 0 0 100%;max-width: 100%;}
+    .header{text-align: center;}
+    .header .col-lg-3 img {margin-left: 0;margin-bottom: 15px;}
+    .bannerleft_section{width: 100%;padding: 0 100px;}
+    div#border{padding-top: 203px;}
+    .cta_btns{margin-bottom: 50px;}
+    .bannerright_section{position: relative;width: 100%;padding: 0 100px;padding-top: 15%;background-color: #223c52;margin-bottom: 50px;padding-bottom: 50px;}
+    .footer_top .col-lg-2{flex: 0 0 33.33%;max-width: 33.33%;}
+    .search_result {padding: 40px 15px;}
+    .searchdata_section .search_bar .form-control {width: 100%;}
+    .dealer_width{width: 50%;}
+    .dealer_text{padding: 2.3% 30px 4%;}
+    .cta_floating_box .cta2_header{padding: 15px;}
+    .cta_floating_box .cta2_footer .green_btn{padding: 15px;}
+    .cta_floating_box{position: unset;right: 0;top: 0;margin-left: 20%;}
+    .car_detail_banner .slick-dots{left: 0;}
+    .car_detail_banner:before{height: 1100px;}
+    .box_hover:hover {box-shadow: rgb(167 184 202) 0px 15px 25px;}
+}
+@media (max-width: 1024px){
+    .login_details p{font-size: 16px;line-height: 24px;}
+    .right_section h1 {font-size: 38px;line-height: 40px;}
+    .search_result .car_left, .search_result .car_right{width: 100%; text-align: left;}
+    .search_result .car_right{margin-top: 15px;}
+    .searchdata_section .colorswatch_text {margin-left: 0;}
+    .search_result .car_left h4{font-size: 24px;}
+    .dealer_text{padding: 6% 30px 4%; height: 79.5vh;}
+    .cardetail_faq{position: unset;}
+    .car_deatil_floating{position: relative;}
+}
+@media (min-width: 992px){
+    .hidden-lg {display: none !important;}
+    .collection_sidebar .filter_content {height: auto !important;}
+}
+@media (max-width: 992px){
+    .car_detail_banner:before {height: 1055px;}
+}
+@media (max-width: 991px){
+    .right_section h1 {font-size: 36px;line-height: 38px;}
+    .left_section {padding: 40px 30px;}
+    .left_section{width:100%;}
+    .right_section {width: 100%;margin-top: 10%;}
+    .elvy_advantages .col-lg-7, .elvy_advantages .col-lg-5{flex: 0 0 100%;max-width: 100%;}
+    .advantages_box:after {top: 5px;height: 600px;}
+    .hometext{padding: 122px 0 40px;}
+    .elvy_advantages h3{margin-top: 30px;}
+    .elvy_advantages{padding: 0 0 50px 0;}
+    .blue_box{margin-right: 15px;}
+    .accordian_details {width: 66%;}
+    .faq-accordion .accordion .accordion-title {font-size: 14px;line-height: 18px;}
+    .car_left h3{font-size: 32px;line-height: 110%;}
+    .car_left{width:100%;}
+    .car_right{width:100%;margin-top: 30px;text-align: left;}
+    .search_bar .form-control {width: auto;}
+    .advantages_box:before {top: 40px;}
+    .events{padding-bottom: 0;}
+    .colorswatch_text{margin-left: 0;}
+    .finance_greybox .form-control, .finance_greybox .form-control option{width: 100%;}
+    .floating_box .col-lg-4:nth-child(4), .floating_box .col-lg-4:nth-child(5){border-right: 0;}
+    .floating_box .col-lg-4:nth-child(1),  .floating_box .col-lg-4:nth-child(2){border-right: 0;border-bottom: 0;}
+    .floating_box .col-lg-4:nth-child(3){border-bottom: 0;}
+    .floating_box .col-lg-4:nth-child(2) .float_minibox, .floating_box .col-lg-4:nth-child(3) .float_minibox, .floating_box .col-lg-4:nth-child(5) .float_minibox, .floating_box .col-lg-4:nth-child(6) .float_minibox {padding-left: 0;}
+    .floating_cta.finanace_boxes h6 br{display: none;}
+    .floating_cta.finanace_boxes h6{min-height: auto;}
+    .collection_sidebar {position: fixed;top: 0;bottom: 0;width: 325px;left: 0;background: #f5f5f5;z-index: 11111;height: 100%;padding: 30px 0;left: -325px;}
+    .filter_menu {display: inline-block;position: absolute;z-index: 99;right: 5%;top: 35%;}
+    .filter_menu a {cursor: pointer;display: block;font-size: 18px;color: #223c52 !important;font-weight: 600;}
+    .searchdata_section .search_bar{width: 100%;}
+    .category_list .category_title {display: none;}
+    .searchdata_section{width: 100%;}
+    .filter_section{width: auto;}
+    .blue_searchbar{padding: 30px;}
+    .collection_sidebar .sidebar_title {display: inline-block;width: 100%;padding-left: 30px;padding-right: 30px;padding-bottom: 30px;}
+    .collection_sidebar .sidebar_title .filter_colse {          display: inline-block;float: right;margin-right: 5px;margin-top: 7px;line-height: normal;height: 13px;}
+    .collection_sidebar .sidebar_title .title_h3 {display: inline-block;}
+    .collection_sidebar .filter_content {padding: 0 35px;position: relative;}
+    .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background: #223c52 !important;width: 9px;}
+    .mCSB_scrollTools .mCSB_draggerRail {background: #e1e1e1;width: 9px;}
+    .mCSB_scrollTools {width: 9px;opacity: 1;right: 10px;}
+    .dealer_form{margin-top: 30px;}
+    .testi_info .testi_box{padding: 25px 15px;}
+    .testi_img{margin-right: 10px;}
+    .dealer_contact {padding-bottom: 90px;}
+    .dealer_testimonial {padding-bottom: 90px;}
+    .dealer_width {width: 60%;}
+    .dealer_user_info p, .faq2-accordion .accordion-item{max-width: unset;}
+    .car_testi_box p {min-height: auto;}
+    .car_testi_box{margin-bottom: 30px;}
+    .faq_1_accordian .faq_tag_bg{width: 115px;}
+    .faq_1_accordian .faq_tags span{font-size: 12px;}
+    .faq_1_accordian .accordion-title{font-size: 16px;}
+    ul.tabs2 li{padding: 20px 15px;font-size: 16px;line-height: 22px;}
+    ul.tabs2 li span{font-size: 14px;line-height: 22px;margin: 0;}
+    ul.tabs2 li .fa{right: 10px;top: 26%;}
+    .car_testimonial{padding: 290px 0 15px;}
+    .car_faq{padding: 51px 0 70px}
+    .play_btn{top: 32%;left: 40%;}
+    .car_detail_banner:before {height: 980px;}
+    .cta_floating_box .cta2_footer{display:none;}
+    .cta2_floating_box{margin-bottom:0; }
+    .cta2_floating_box .cta2_box{float: unset;}
+
+}
+@media (max-width:768px){
+    .car_hover_box {margin-bottom: 0;}
+    .filter_menu{right: 8%;}
+    .car_detail_banner:before {height: 933px;}
+}
+@media (max-width: 767px){
+    .faq-accordion .accordion .accordion-title {font-size: 18px;line-height: 22px;}
+    .events .col-md-6:nth-child(3){margin-bottom: 40px;}
+    .advantages_box .col-sm-6{flex: 0 0 100%;max-width: 100%;}
+    .advantages_box:before, .advantages_box:after{display: none;}
+    .advantages_box .col-sm-6:nth-child(1), .advantages_box .col-sm-6:nth-child(2), .advantages_box .col-sm-6:nth-child(3){margin-bottom: 45px;}
+    .footer_top .col-lg-2:nth-child(1){flex: 0 0 100%;max-width: 100%; text-align: center; margin-bottom: 10px;}
+    .footer_top .col-lg-2{flex: 0 0 50%;max-width: 50%;margin-bottom: 10px;text-align: center;}
+    .footer_top{padding: 28px 50px 17px 20px;}
+    .bannerleft_section .blue_btn, .bannerleft_section .white_btn{padding: 20px 25px;width: 100%; }
+    .bannerleft_section .blue_btn {margin-right: 0px; margin-bottom: 15px;}
+    .bannerright_section{padding: 15% 50px 50px;}
+    .finanace_boxes1, .finanace_boxes {padding-bottom: 70px;}
+    .finanace_boxes h1{font-size: 26px;line-height: 22px;}
+    .search_result .col-md-6:nth-child(3){margin-bottom: 40px;}
+    .testi_img {margin-right: 0;}
+    .tab_drawer_heading2 {background-color: #223c52;color: #fff;margin: 0;padding: 10px 20px;display: block;cursor: pointer;-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none; margin-bottom: 15px;font-size:18px;}
+    .tabs2 {display: none;}
+    .d_active {background-color: #25cbdd;color: #fff;}
+    .cta2_header{padding: 15px;}
+    .tab_container2{width: 100%;}
+    .tab_content2{padding-left: 0; margin-bottom: 30px;}
+    .tab_drawer_heading2 .fa{position: absolute;right: 15px}
+    .car_testimonial {padding: 310px 0 15px;}
+    .faq_1_accordian .faq_tags, .faq_1_accordian .accordian_details{width: 100%;}
+    .faq_1_accordian .accordion-title.active {padding: 55px 0 17px;}
+    .cta2_header h2{font-size: 16px;}
+    .play_btn{top: 33%;left: 41%;}
+    .cta_floating_box .cta2_footer .green_btn{line-height: 18px;font-size: 16px;}
+    .car_detail_banner:before {height: 475px;}
+    .car_banner_hoverbox {display: inline-block;width: 50%;float: left;}
+    .blue_box_card{padding: 20px;}
+    .car_hover_box .car_hover_text{padding: 12px;}
+}
+@media (max-width: 690px){
+    .header .col-lg-9{display: none;}
+    .mobile-nav {display: block; position: relative;}
+    .responsive-menu {display: none;}
+    .expand {display: block;}
+    .header .col-lg-3{flex: 0 0 30%;max-width: 30%;}
+    div#menu-btn {right: 30px;position: absolute;top: -65px;}
+    .responsive-menu .navigation li {width: 100%;padding: 10px 15px;}
+    .header {padding: 25px 0 0;}
+    div#border {padding-top: 113px;}
+    .search_bar .form-control{padding: 15px 28px 15px 85px;}
+    .search_bar .fa{top: 16px;}
+    .responsive-menu .navigation li a{color: #464655;letter-spacing: 1px;font-weight: 600;}
+    .mobile-nav .navigation{padding-bottom: 15px;}
+    .mobile-nav .search_bar{margin: 0;}
+}
+@media (max-width: 575px){
+    .right_section h1 {font-size: 28px;line-height: 34px;}
+    .bannerleft_section{padding: 0px 50px;}
+    .bannerleft_section h2 {font-size: 34px;line-height: 38px;}
+    .box_content{margin-right: 20px;width: 45%;}
+    ul.tabs li{font-size: 17px;line-height: 20px;padding: 0px 12px 0 0;}
+    .bannerleft_section .blue_btn, .bannerleft_section .white_btn{padding: 15px 20px;}
+    .faq-accordion .accordion .accordion-title {font-size: 16px;}
+    .finanace_boxes .floating_box{padding: 20px 15px;}
+    .homebanner{padding: 25% 0 10%;}
+    .dealer_width{width: 100%;}
+    .dealer_text h2{font-size: 28px; line-height: 34px; margin-bottom: 5px;}
+    .dealer_text p{font-size: 16px;line-height: 24px; margin-bottom: 15px;}
+    .dealer_text .blue_btn{padding: 15px 22px; font-size: 16px;}
+    .dealer_text{padding: 7.3% 30px;}
+    .dealer_deatils h2{font-size: 21px;line-height: 31px;}
+    .header .col-lg-3 img{margin-left: 25px;}
+    .car_detail_banner:before { height: 360px;}
+    .cta_floating_box{margin: 0;padding: 15px 19%;}
+    .car_banner_box{top: 65px;}
+    .cta2_body .col-sm-6:nth-child(1), .cta2_body .col-sm-6:nth-child(3), .cta2_body .col-sm-6:nth-child(2){border: 0;}
+    .cta2_footer .green_btn{padding: 12px 45px;}
+    .cta_floating_box .cta2_body .col-sm-8{flex: 0 0 65%;max-width: 65%;}
+    .cta_floating_box .cta2_body .col-sm-4{flex: 0 0 35%;max-width: 35%;}
+    .cta2_floating_box .cta2_header, .cta2_floating_box .cta2_body{display: none;}
+    .cta2_floating_box{margin: 0;position: absolute;bottom: -70px;left: 0;}
+    .cta2_floating_box .cta2_box{box-shadow: none;}
+    .cta2_floating_box .cta2_box{max-width: unset;}
+    .cta2_floating_box .cta2_footer{position: fixed;bottom: 0;left: 0;}
+}
+@media (max-width: 480px) {
+    /*    .tabs {display: none;}
+        .tab_drawer_heading {background-color: #223c52;color: #fff !important;line-height:24px !important;margin: 0;font-size: 20px !important;padding: 5px 20px;display: block;cursor: pointer;-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}*/
+    .tabs1 {display: none;}
+    .tab_drawer_heading1 {background-color: #223c52;color: #fff !important;line-height:24px !important;margin: 0;font-size: 20px !important;padding: 5px 20px;display: block;cursor: pointer;-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+    .d_active {background-color: #25cbdd;color: #fff;}
+    .right_section h1 {font-size: 22px;line-height: 28px;}
+    .events{padding-top: 25px;}
+    .bannerright_section {padding: 20% 15px 50px 26px;}
+    .finance_greybox {padding: 50px 30px;}
+    .blue_searchbar {padding: 30px;}
+    .dealer_deatils p{font-size: 16px;line-height: 24px;}
+    .dealer_user_info h2, .dealer_testi_info h2{font-size: 24px;line-height: 32px;}
+    .dealer_text{padding: 9.3% 30px 0;height: 65vh;}
+    .dealer_form h3{font-size: 22px;margin-bottom: 25px;}
+    .dealer_form{padding: 30px 25px;}
+    .car_slider .col-sm-3 img{margin: 0 auto;}
+    .tab_drawer_heading2{font-size: 15px;}
+    .cta_floating_box{width: 100%;padding: 25px 60px;}
+    .car_banner_img{margin-left: 35px;}
+    .car_detail_banner .slick-dots{bottom: 5px;}
+    .tab_drawer_heading1 .fa{position: absolute;right: 30px}
+    .faq_1_accordian .accordion-title i{right: -10px;top: 20px;}
+    .filter_menu {right: 12%;}
+    .car_banner_box{top: 53px;}
+    .car_detail_banner:before {height: 320px;}
+    .blue_box_card {padding: 17px;}
+    .car_hover_box .car_hover_text {padding: 10px;}
+}
+@media (max-width: 414px) {
+    .right_section h1 {font-size: 18px;line-height: 20px;}
+    .bannerleft_section {padding: 0px 20px;}
+    .hometext {padding: 60px 0 40px;} 
+    .events h3{font-size: 22px;line-height: 45px;}
+    .faq-accordion .accordion .accordion-title {font-size: 14px;line-height: 18px;}
+    .footer_top .col-lg-2{flex: 0 0 100%;max-width: 100%;}
+    .car_left h4{font-size: 20px;line-height: 22px;margin-bottom: 15px;}
+    .hometext p{font-size: 18px;line-height: 27px;}
+    .bannerleft_section h2 {font-size: 28px;line-height: 34px;}
+    .blue_box{width: 75px;}
+    .finance_text h2{font-size: 26px;line-height: 36px;margin: 5px 0 20px;}
+    .play_btn{top: 26%;left: 36%;}
+    .cta_floating_box {padding: 0px 30px;}
+    ul.tabs li{font-size: 15px;}
+    .car_hover_text h6{font-size: 12px; line-height: 12px;}
+    div#border {padding-top: 103px;}
+    .filter_menu {right: 15%;}
+    .blue_box_card {padding: 8px;}
+    .car_hover_text span{font-size: 12px;line-height: 12px;}
+    .car_hover_box .car_hover_text { padding: 8px;}
+    .car_detail_banner:before {height: 275px;}
+    .car_banner_box {top: 62px;}
+    .car_banner_box{left: 20px;}
+    .box_content .blue_btn{padding: 15px 32px;}
+    .cta_floating_box .car_list_left li, .cta_floating_box .car_list_right li{font-size: 12px;line-height: 20px;}
+    .cta_floating_box .cta2_body {padding: 0px 0px 20px;}
+
+}
+@media (max-width: 375px) {
+    div#border {padding-top: 96px;}
+    div#menu-btn{top: -55px;}
+    .car_detail_banner:before {height: 255px;}
+    .car_banner_box {top: 57px;}
+    .car_banner_box {left: 15px;}
+    .blue_box_card {padding: 6px;}
+    .car_hover_box .car_hover_text { padding: 6px;}
+    .box_content .blue_btn{padding: 15px 23px;}
+    .car_testimonial {padding: 215px 0 15px;}
+}

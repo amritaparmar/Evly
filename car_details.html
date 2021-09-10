@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <!-- Required Title -->
+        <title>Evly - Car Details</title>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+        <link rel="shortcut icon" href="img/favicon.png" />
+        <!-- Fonts and icons -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <!-- Stylesheets -->
+        <!-- Bootstrap 4 css-->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <!-- Slick css -->
+        <link href="css/slick.css" rel="stylesheet" type="text/css"/>
+        <link href="css/slick-theme.css" rel="stylesheet" type="text/css"/>
+        <!-- Evly css -->
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <!-- Evly responsive -->
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body class="car_deatil_floating">
+        <!-- Start Header Area -->
+        <header class="header white_header">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/logo.png" class="img-fluid" alt="logo"/></a>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="header_right">
+                        <div class="menu">
+                            <a href="javascript:void(0)"><img src="img/menu.png" class="img-fluid" alt="menu"/></a>
+                            <div class="hamburgermenu_toggle">
+                                <ul class="toggle_links">
+                                    <li><a href="index.html" class="active">HOME</a></li>
+                                    <li><a href="search.html">SEARCH EV</a></li>
+                                    <li><a href="incentives.html">INCENTIVES</a></li>
+                                    <li><a href="javascript:void(0)">CHARGING</a></li>
+                                    <li><a href="dealer_signup.html">FOR DEALERS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="search_bar">
+                            <form>
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <input class="form-control" type="search" placeholder="Enter Model or Brand, or ask a Question" aria-label="Search">
+                            </form>
+                        </div>
+                        <div class="dropdown">
+                            <select>
+                                <option>US - New york</option>
+                                <option>US - California</option>
+                                <option>US - LA</option>
+                                <option>US - New Jersey</option>
+                            </select>
+                        </div>
+                        <div class="info_section login_profile">
+                            <a href="login_signup.html"><img src="img/profile.png" class="img-fluid" alt="login-signup"/></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="mobile-nav">
+                        <div class="menu-btn" id="menu-btn">
+                            <img src="img/menu-icon.png" class="img-fluid" alt="menu-icon"/>
+                        </div>
+                        <div class="responsive-menu">
+                            <ul class="navigation">
+                                <li><div class="search_bar">
+                                        <form>
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                        </form>
+                                    </div></li>
+                                <li><div class="dropdown">
+                                        <select>
+                                            <option>US - New york</option>
+                                            <option>US - California</option>
+                                            <option>US - LA</option>
+                                            <option>US - New Jersey</option>
+                                        </select>
+                                    </div></li>
+                                <li><a href="index.html" class="active">HOME</a></li>
+                                <li><a href="search.html">SEARCH EV</a></li>
+                                <li><a href="incentives.html">INCENTIVES</a></li>
+                                <li><a href="javascript:void(0)">CHARGING</a></li>
+                                <li><a href="dealer_signup.html">FOR DEALERS</a></li>
+                                <li><a href="login_signup.html">LOGIN/SIGNUP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header Area -->
+
+        <!-- Start border Area -->
+        <div id="border">
+            <div id="sky-blue"></div>
+            <div id="sky-grey"></div>
+        </div>
+        <!-- End border Area -->
+
+        <!-- Start Car-image-gallery Area -->
+        <section class="car_detail_banner">
+            <div class="car_banner_img">
+                <div class="slider_car_img">
+                    <img src="img/car_banner.png" class="img-fluid" alt="car_banner"/>
+                </div>
+                <div class="slider_car_img">
+                    <img src="img/car_banner.png" class="img-fluid" alt="car_banner"/>
+                </div>
+                <div class="slider_car_img">
+                    <img src="img/car_banner.png" class="img-fluid" alt="car_banner"/>
+                </div>
+                <div class="slider_car_img">
+                    <img src="img/car_banner.png" class="img-fluid" alt="car_banner"/>
+                </div>
+            </div>
+            <div class="car_banner_hoverbox">
+                <div class="car_banner_box">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="car_hover_box">
+                                <a href="javascript:void(0)" class="car_banner_box_hover">
+                                    <div class="blue_box_card">
+                                        <img src="img/battery-charching.png" class="img-fluid" alt="battery-charching"/>
+                                    </div>
+                                </a>
+                                <div class="car_hover_text">
+                                    <span>2 Hours</span>
+                                    <h6>240 Miles</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="car_hover_box">
+                                <a href="javascript:void(0)" class="car_banner_box_hover">
+                                    <div class="blue_box_card">
+                                        <img src="img/dashboard.png" class="img-fluid" alt="dashboard"/>
+                                    </div>
+                                </a>
+                                <div class="car_hover_text">
+                                    <span>2 Hours</span>
+                                    <h6>240 Miles</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="car_hover_box">
+                                <a href="javascript:void(0)" class="car_banner_box_hover">
+                                    <div class="blue_box_card">
+                                        <img src="img/calendar-checked.png" class="img-fluid" alt="calendar-checked"/>
+                                    </div>
+                                </a>
+                                <div class="car_hover_text">
+                                    <span>2 Hours</span>
+                                    <h6>240 Miles</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cta_floating_box">
+                <div class="cta2_box">
+                    <div class="cta2_header">
+                        <h2>Tesla Model S</h2>
+                    </div>
+                    <div class="cta2_body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h3>EV Price Overview</h3>
+                                    <form>
+                                        <div class="form-group">
+                                            <label>ZIP/POSTAL CODE</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <ul class="car_list_left">
+                                                <li>Car Price MTR *</li>
+                                                <li>Total Taxes</li>
+                                                <li>Federal, State & Local Rebates</li>
+                                                <li>Utility Coupons</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <ul class="car_list_right">
+                                                <li>12,189.99 $</li>
+                                                <li>128.00 $</li>
+                                                <li>-1,789.99 $</li>
+                                                <li>-500.00 $</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cta2_footer">
+                        <a href="javascript:void(0)" class="green_btn">Get a Test Ride</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End  Car-image-gallery Area -->
+
+        <!-- Start Car-image-gallery Area -->
+        <section class="car_gallery">
+            <div class="container-fluid">
+                <div class="row car_slider">
+                    <div class="col-sm-3">
+                        <img src="img/car-gallery1.png" class="img-fluid" alt="car-gallery1"/>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="img/car-gallery2.png" class="img-fluid" alt="car-gallery2"/>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="img/car-gallery3.png" class="img-fluid" alt="car-gallery3"/>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="img/car-gallery1.png" class="img-fluid" alt="car-gallery1"/>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="img/car-gallery2.png" class="img-fluid" alt="car-gallery2"/>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="img/car-gallery3.png" class="img-fluid" alt="car-gallery3"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End  Car-image-gallery Area -->
+
+        <!-- Start Car-details-block Area -->
+        <section class="car_detailbox">
+            <div class="container">
+                <span>FEATURES ANALYSIS</span>
+                <h2 class="cardetail_heading">Tesla Model S</h2>
+                <div class="floating_box">
+                    <div class="col-lg-4">
+                        <div class="float_minibox">
+                            <h2>240 Miles</h2>
+                            <h6>Can go upto 240 Miles on <br> Full Battery</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="float_minibox">
+                            <h2>120 Minutes</h2>
+                            <h6>To Charge Battery to Full <br> Capacity</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="float_minibox">
+                            <h2>190 MPH</h2>
+                            <h6>Top Speed of 190 MPH for <br> Best in Class Performance</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="float_minibox">
+                            <h2>5 Seconds</h2>
+                            <h6>To go from 0 to 100 MPH, <br> above par Acceleration</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="float_minibox">
+                            <h2>4.6 Star</h2>
+                            <h6>Overall Customer & Critique <br> Rating Score</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="float_minibox">
+                            <h2>1.2~Mn Price</h2>
+                            <h6>Priced 20% Higher than the <br> median Price in Category</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End  Car-details-block Area -->
+
+        <!-- Start Car FAQ Area -->
+        <section class="faq_floatingcta cardetail_faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="faq1_section">
+                            <div class="faq_1_accordian">
+                                <div class="accordion-item">
+                                    <div class="faq_tags">
+                                        <div class="faq_tag_bg">
+                                            <span>Performance</span>
+                                            <p class="h_value">EV Efficiency</p>
+                                        </div>
+                                    </div>
+                                    <div class="accordian_details">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class="fa fa-angle-down"></i>
+                                            280 MPH Top Speed, 0-100 MPH in 6 Seconds
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq_1_accordian">
+                                <div class="accordion-item">
+                                    <div class="faq_tags active">
+                                        <div class="faq_tag_bg">
+                                            <span>Battery</span>
+                                            <p class="h_value">EV Efficiency</p>
+                                        </div>
+                                    </div>
+                                    <div class="accordian_details">
+                                        <a class="accordion-title active" href="javascript:void(0)">
+                                            <i class='fa fa-angle-down'></i>
+                                            2 Hours to Full Charge, 240 Miles on Full Battery
+                                        </a>
+                                        <div class="accordion-content show">
+                                            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq_1_accordian">
+                                <div class="accordion-item">
+                                    <div class="faq_tags">
+                                        <div class="faq_tag_bg">
+                                            <span>Interiors</span>
+                                            <p class="h_value">EV Efficiency</p>
+                                        </div>
+                                    </div>
+                                    <div class="accordian_details">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class='fa fa-angle-down'></i>
+                                            Leather Seats, Surround Sound Stereo, LX2 Steering, H2 Gear Box
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq_1_accordian">
+                                <div class="accordion-item">
+                                    <div class="faq_tags">
+                                        <div class="faq_tag_bg">
+                                            <span>Intelligence</span>
+                                            <p class="h_value">EV Efficiency</p>
+                                        </div>
+                                    </div>
+                                    <div class="accordian_details">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class='fa fa-angle-down'></i>
+                                            Parking Assistance, AI-Valley, L2 Automation
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq_1_accordian">
+                                <div class="accordion-item">
+                                    <div class="faq_tags">
+                                        <div class="faq_tag_bg">
+                                            <span>Wheel & Safety</span>
+                                            <p class="h_value">EV Efficiency</p>
+                                        </div>
+                                    </div>
+                                    <div class="accordian_details">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class='fa fa-angle-down'></i>
+                                            Afterparty
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End  Car FAQ Area -->
+
+        <!-- Start Car-analysis Area -->
+        <section class="car_analysis">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="car_analysis_heading">
+                            <span>USAGE analySIs</span>
+                            <h2>The Evly View</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                        </div>
+                        <div class="analysis_tab">
+                            <div class="tabs_wrapper">
+                                <ul class="tabs2">
+                                    <li rel="tab1">From Tesla Motors <span>via Fox News</span> <i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                    <li rel="tab2">User Reviews <span>powered by Squared Axiles</span> <i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                    <li class="active" rel="tab3">Auto Expert Review <span>by Without-Bugs</span> <i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                </ul>
+                                <div class="tab_container2">
+                                    <h3 class="d_active tab_drawer_heading2" rel="tab1">From Tesla Motors <span>via Fox News</span><i class="fa fa-angle-right" aria-hidden="true"></i></h3>
+                                    <div id="tab1" class="tab_content2">
+                                        <div class="analysis_video">
+                                            <img src="img/video_img.png" class="img-fluid play_bg" alt="video_img"/>
+                                            <iframe  class="yt" src="https://www.youtube.com/embed/qbDgjwB93i8" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+                                            <div class="play_btn">
+                                                <img src="img/button.png" class="img-fluid play_blue" alt="/button"/>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <!-- #tab1 -->
+                                    <h3 class="tab_drawer_heading2" rel="tab2">User Reviews <span>powered by Squared Axiles</span><i class="fa fa-angle-right" aria-hidden="true"></i> </h3>
+                                    <div id="tab2" class="tab_content2">
+                                        <div class="analysis_video">
+                                            <img src="img/video_img.png" class="img-fluid play_bg" alt="video_img"/>
+                                            <iframe  class="yt" src="https://www.youtube.com/embed/qbDgjwB93i8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                                            <div class="play_btn">
+                                                <img src="img/button.png" class="img-fluid play_blue" alt="/button"/>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <!-- #tab2 -->
+                                    <h3 class="tab_drawer_heading2" rel="tab3">Auto Expert Review <span>by Without-Bugs</span> <i class="fa fa-angle-right" aria-hidden="true"></i></h3>
+                                    <div id="tab3" class="tab_content2">
+                                        <div class="analysis_video">
+                                            <img src="img/video_img.png" class="img-fluid play_bg" alt="video_img"/>
+                                            <iframe  class="yt" src="https://www.youtube.com/embed/qbDgjwB93i8" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+                                            <div class="play_btn">
+                                                <img src="img/button.png" class="img-fluid play_blue" alt="/button"/>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <!-- #tab3 -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End  Car-analysis Area -->
+
+        <!-- Start Car-testimonial Area -->
+        <section class="car_testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="car_testi_head">
+                            <span>CUSTOMER REVIEWS</span>
+                            <h2>Some Testimonials</h2>
+                            <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="car_testi_box">
+                            <img src="img/blockquote.png" class="img-fluid" alt="blockquote"/>
+                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <div class="car_testi_headbox">
+                                <div class="car_testi_headbox_img">
+                                    <img src="img/testicar_1.png" class="img-fluid" alt="testicar_1"/>
+                                </div>
+                                <div class="car_testi_headbox_details">
+                                    <h5>Frances Reyes</h5>
+                                    <span>South Vinnie</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="car_testi_box">
+                            <img src="img/blockquote.png" class="img-fluid" alt="blockquote"/>
+                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                            <div class="car_testi_headbox">
+                                <div class="car_testi_headbox_img">
+                                    <img src="img/testicar_2.png" class="img-fluid" alt="testicar_2"/>
+                                </div>
+                                <div class="car_testi_headbox_details">
+                                    <h5>Bertie Rios</h5>
+                                    <span>Kihnview</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="car_testi_box">
+                            <img src="img/blockquote.png" class="img-fluid" alt="blockquote"/>
+                            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                            <div class="car_testi_headbox">
+                                <div class="car_testi_headbox_img">
+                                    <img src="img/testicar_3.png" class="img-fluid" alt="testicar_3"/>
+                                </div>
+                                <div class="car_testi_headbox_details">
+                                    <h5>Eleanor Matthews</h5>
+                                    <span>Karianneberg</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End  Car-testimonial Area -->
+
+        <!-- Start Car-FAQ Area -->
+        <section class="car_faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="faq-accordion">
+                            <div class="accordion">
+                                <div class="accordion-item">
+                                    <div class="blue_box"></div>
+                                    <div class="accordian_details">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            What's California's Shine the Light law and how do we comply?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="faq-accordion">
+                            <div class="accordion">
+                                <div class="accordion-item">
+                                    <div class="blue_box"></div>
+                                    <div class="accordian_details">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            Chatting with businesses?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="faq-accordion">
+                            <div class="accordion">
+                                <div class="accordion-item">
+                                    <div class="blue_box active"></div>
+                                    <div class="accordian_details">
+                                        <a class="accordion-title active" href="javascript:void(0)">
+                                            Responding to Law Enforcement Requests
+                                        </a>
+                                        <div class="accordion-content show">
+                                            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="faq-accordion">
+                            <div class="accordion">
+                                <div class="accordion-item">
+                                    <div class="blue_box"></div>
+                                    <div class="accordian_details">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            What's California's Shine the Light law and how do we comply?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="faq-accordion">
+                            <div class="accordion">
+                                <div class="accordion-item">
+                                    <div class="blue_box"></div>
+                                    <div class="accordian_details">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            Chatting with businesses?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="car_faq_title">Explore Similar EVs</h2>
+                        <div class="car_box_slider">
+                            <div class="car_box">
+                                <img src="img/telsa_car.png" class="img-fluid" alt="car"/>
+                                <div class="car_details">
+                                    <div class="car_left">
+                                        <h3>Tesla Model S</h3>
+                                        <h4>$12,959.00</h4>
+                                        <div class="star_ratings">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>2 reviews</p>
+                                        </div>
+                                    </div>
+                                    <div class="car_right">
+                                        <div class="color_swatch">
+                                            <span class="color1"></span>
+                                            <span class="color2"></span>
+                                            <span class="color3"></span>
+                                        </div>
+                                        <div class="colorswatch_text">
+                                            <img src="img/battery-small.png" alt="battery"/>
+                                            <p>2 Hours to Charge | 240 Miles</p>
+                                        </div>
+                                        <a href="javascript:void(0)" class="save_btn">Shortlist EV</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car_box">
+                                <img src="img/telsa_car.png" class="img-fluid" alt="car"/>
+                                <div class="car_details">
+                                    <div class="car_left">
+                                        <h3>Tesla Model S</h3>
+                                        <h4>$12,959.00</h4>
+                                        <div class="star_ratings">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>2 reviews</p>
+                                        </div>
+                                    </div>
+                                    <div class="car_right">
+                                        <div class="color_swatch">
+                                            <span class="color1"></span>
+                                            <span class="color2"></span>
+                                            <span class="color3"></span>
+                                        </div>
+                                        <div class="colorswatch_text">
+                                            <img src="img/battery-small.png" alt="battery"/>
+                                            <p>2 Hours to Charge | 240 Miles</p>
+                                        </div>
+                                        <a href="javascript:void(0)" class="save_btn">Shortlist EV</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Start Floating CTA Box Area -->
+                        <div class="cta2_floating_box">
+                            <div class="cta2_box">
+                                <div class="cta2_header">
+                                    <h2>Tesla Model S</h2>
+                                    <span>US - NY</span>
+                                </div>
+                                <div class="cta2_body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <h3>$ 12,189</h3>
+                                                <span>Car Price (MTR*)</span>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <h3 class="green_color">$ 3,500</h3>
+                                                <span>Total Rebates</span>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <h3 class="green_color">$ 800</h3>
+                                                <span>Utility Coupons</span>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <h3 class="grey_color">$ 400</h3>
+                                                <span>Total Taxes</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cta2_footer">
+                                    <a href="javascript:void(0)" class="green_btn">Get a Test Ride</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End  Floating CTA Box Area -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End  Car-FAQ Area -->
+
+        <!-- Start Footer Area -->
+        <footer>
+            <div class="footer_top">
+                <div class="row">
+                    <div class="col-lg-2 align-self-center">
+                        <a href="index.html"><img src="img/footer_logo.png" class="img-fluid" alt="footer-logo"/></a>
+                    </div>
+                    <div class="col-lg-2">
+                        <ul class="footer_links">
+                            <li><a href="javascript:void(0)">About us</a></li>
+                            <li><a href="javascript:void(0)">Customer Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <ul class="footer_links">
+                            <li><a href="javascript:void(0)">Register as a Dealer</a></li>
+                            <li><a href="javascript:void(0)">Privacy and Cookie Policy</a></li>
+                            <li><a href="javascript:void(0)">Orders and Returns</a></li>
+                            <li><a href="javascript:void(0)">Contact Us</a></li>
+                            <li><a href="javascript:void(0)">Be a Search Partner</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom text-center">
+                <p>© 2021 Evly Business Solutions Pvt. Ltd.</p>
+            </div>
+        </footer>
+
+        <!-- jQuery js -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+        <!-- Bootstrap 4 dependency popper js  -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+        <!-- Bootstrap 4 js -->
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- Slick js -->
+        <script src="js/slick.js" type="text/javascript"></script>
+        <!-- Evly js -->
+        <script src="js/custom.js" type="text/javascript"></script>
+    </body>
+</html>

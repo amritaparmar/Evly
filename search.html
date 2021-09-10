@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <!-- Required Title -->
+        <title>Evly - Search Page</title>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+        <link rel="shortcut icon" href="img/favicon.png" />
+        <!-- Fonts and icons -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <!-- Stylesheets -->
+        <!-- Bootstrap 4 css-->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <!-- Slick css -->
+        <link href="css/slick.css" rel="stylesheet" type="text/css"/>
+        <link href="css/slick-theme.css" rel="stylesheet" type="text/css"/>
+        <!-- mCustomScrollbar css -->
+        <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css"/>
+        <!-- Evly css -->
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <!-- Evly responsive -->
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!-- Start Header Area -->
+        <header class="header white_header">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/logo.png" class="img-fluid" alt="logo"/></a>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="header_right">
+                        <div class="menu">
+                            <a href="javascript:void(0)"><img src="img/menu.png" class="img-fluid" alt="menu"/></a>
+                            <div class="hamburgermenu_toggle">
+                                <ul class="toggle_links">
+                                    <li><a href="index.html" class="active">HOME</a></li>
+                                    <li><a href="search.html">SEARCH EV</a></li>
+                                    <li><a href="incentives.html">INCENTIVES</a></li>
+                                    <li><a href="javascript:void(0)">CHARGING</a></li>
+                                    <li><a href="dealer_signup.html">FOR DEALERS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="search_bar">
+                            <form>
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <input class="form-control" type="search" placeholder="Enter Model or Brand, or ask a Question" aria-label="Search">
+                            </form>
+                        </div>
+                        <div class="dropdown">
+                            <select>
+                                <option>US - New york</option>
+                                <option>US - California</option>
+                                <option>US - LA</option>
+                                <option>US - New Jersey</option>
+                            </select>
+                        </div>
+                        <div class="info_section login_profile">
+                            <a href="login_signup.html"><img src="img/profile.png" class="img-fluid" alt="login-signup"/></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="mobile-nav">
+                        <div class="menu-btn" id="menu-btn">
+                            <img src="img/menu-icon.png" class="img-fluid" alt="menu-icon"/>
+                        </div>
+                        <div class="responsive-menu">
+                            <ul class="navigation">
+                                <li><div class="search_bar">
+                                        <form>
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                        </form>
+                                    </div></li>
+                                <li><div class="dropdown">
+                                        <select>
+                                            <option>US - New york</option>
+                                            <option>US - California</option>
+                                            <option>US - LA</option>
+                                            <option>US - New Jersey</option>
+                                        </select>
+                                    </div></li>
+                                <li><a href="index.html" class="active">HOME</a></li>
+                                <li><a href="search.html">SEARCH EV</a></li>
+                                <li><a href="incentives.html">INCENTIVES</a></li>
+                                <li><a href="javascript:void(0)">CHARGING</a></li>
+                                <li><a href="dealer_signup.html">FOR DEALERS</a></li>
+                                <li><a href="login_signup.html">LOGIN/SIGNUP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header Area -->
+
+        <!-- Start border Area -->
+        <div id="border">
+            <div id="sky-blue"></div>
+            <div id="sky-grey"></div>
+        </div>
+        <!-- End border Area -->
+
+        <!-- Start Search Area -->
+        <div class="search_area">
+            <div class="filter_section">
+                <div class="category_list">
+                    <div class="category_title">
+                        <h5 class="title_h5">Search Filters</h5>
+                        <a class="filter_colse" href="javascript:void(0);">
+                            <img src="img/close.png" class="img-fluid" alt="close"/>
+                        </a>
+                    </div>
+                    <div class="collection_sidebar">
+                        <div class="sidebar_title padding-bottom-60 hidden-lg">
+                            <h3 class="title_h3">Filter</h3>
+                            <a class="filter_colse" href="javascript:void(0);"><i class="fa fa-times"></i></a>
+                        </div>
+                        <div class="filter_content  mCustomScrollbar">
+                            <!-- START Availability -->
+                            <div class="category_list">
+                                <div class="category_list_title">
+                                    <h5 class="title_h5">Available</h5>
+                                </div>
+                                <div class="layer-filter">
+                                    <div class="box_content_sidebar">
+                                        <a href="javascript:void(0);" class="side_filter_box_heading"> Today <span class="category_close_icon fa fa-angle-up float-right"></span></a> 
+                                        <ul class="side_filter_box_detail">
+                                            <li><a href="javascript:void(0);">Available in 30 Days</a></li>
+                                            <li><a href="javascript:void(0);">Available in 90 Days</a></li>
+                                            <li><a href="javascript:void(0);">This Year</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- START Range -->
+                            <div class="category_list">
+                                <div class="category_list_title">
+                                    <h5 class="title_h5">Battery Range</h5>
+                                </div>
+                                <div class="layer-filter">
+                                    <div class="box_content_sidebar">
+                                        <a href="javascript:void(0);" class="side_filter_box_heading"> > 200 Miles / charge <span class="category_close_icon fa fa-angle-up float-right"></span></a> 
+                                        <ul class="side_filter_box_detail">
+                                            <li><a href="javascript:void(0);">100 - 200 Miles / charge</a></li>
+                                            <li><a href="javascript:void(0);">50 - 100 Miles / charge</a></li>
+                                            <li><a href="javascript:void(0);">< 50 Miles / charge</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- START Color -->
+                            <div class="category_list">
+                                <div class="category_list_title">
+                                    <h5 class="title_h5">Color</h5>
+                                </div>
+                                <div class="layer-filter colorswatch_section">
+                                    <div class="box_content_sidebar">
+                                        <a href="javascript:void(0);" class="side_filter_box_heading"> Chosen (2) <span class="category_close_icon fa fa-angle-up float-right"></span></a> 
+                                        <ul class="side_filter_box_detail">
+                                            <li><a href="javascript:void(0);" class="active"> <div class="color_swatch">
+                                                        <span class="color1"></span>
+                                                    </div></a></li>
+                                            <li><a href="javascript:void(0);" class="active active_1"><div class="color_swatch">
+                                                        <span class="color2"></span>
+                                                    </div></a></li>
+                                            <li><a href="javascript:void(0);"><div class="color_swatch">
+                                                        <span class="color3"></span>
+                                                    </div></a></li>
+                                            <li><a href="javascript:void(0);"><div class="color_swatch">
+                                                        <span class="color4"></span>
+                                                    </div></a></li>
+                                            <li><a href="javascript:void(0);"><div class="color_swatch">
+                                                        <span class="color5"></span>
+                                                    </div></a></li>
+                                            <li><a href="javascript:void(0);"><div class="color_swatch">
+                                                        <span class="color6"></span>
+                                                    </div></a></li>
+                                            <li><a href="javascript:void(0);"><div class="color_swatch">
+                                                        <span class="color7"></span>
+                                                    </div></a></li>
+                                            <li><a href="javascript:void(0);"><div class="color_swatch">
+                                                        <span class="color8"></span>
+                                                    </div></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- START Brands -->
+                            <div class="category_list">
+                                <div class="category_list_title">
+                                    <h5 class="title_h5">Brands</h5>
+                                </div>
+                                <div class="layer-filter">
+                                    <div class="box_content_sidebar">
+                                        <a href="javascript:void(0);" class="side_filter_box_heading">  Any <span class="category_close_icon fa fa-angle-up float-right"></span></a> 
+                                        <ul class="side_filter_box_detail">
+                                            <li><a href="javascript:void(0);">Tesla</a></li>
+                                            <li><a href="javascript:void(0);">Mercedes-Benz</a></li>
+                                            <li><a href="javascript:void(0);">Volkswagen</a></li>
+                                            <li><a href="javascript:void(0);">BMW </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- START Performance -->
+                            <div class="category_list">
+                                <div class="category_list_title">
+                                    <h5 class="title_h5">Performance</h5>
+                                </div>
+                                <div class="layer-filter">
+                                    <div class="box_content_sidebar">
+                                        <a href="javascript:void(0);" class="side_filter_box_heading">  Any <span class="category_close_icon fa fa-angle-up float-right"></span></a> 
+                                        <ul class="side_filter_box_detail">
+                                            <li><a href="javascript:void(0);">Audi RS Q8</a></li>
+                                            <li><a href="javascript:void(0);">BMW M2 CS</a></li>
+                                            <li><a href="javascript:void(0);">BMW X5 M / X6 M</a></li>
+                                            <li><a href="javascript:void(0);">Toyota GR Yaris</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="javascript:void(0);" class="blue_btn">Apply Filters</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="searchdata_section">
+                <div class="blue_searchbar">
+                    <div class="filter_menu hidden-lg ">
+                        <a class="title_h5 text-capitalize">
+                           <img src="img/filter_icon.png" class="img-fluid" alt="filter_icon"/>
+                        </a>
+                    </div>
+                    <div class="search_bar">
+                        <form>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <input class="form-control" type="search" placeholder="Tesla Model S" aria-label="Search">
+                        </form>
+                    </div>
+                </div>
+                <div class="search_result">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="car_details.html">
+                                    <div class="car_box">
+                                        <img src="img/telsa_car.png" class="img-fluid" alt="car"/>
+                                        <div class="car_details">
+                                            <div class="car_left">
+                                                <h3>Tesla Model S</h3>
+                                                <h4>$12,959.00</h4>
+                                                <div class="star_ratings">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <p>2 reviews</p>
+                                                </div>
+                                            </div>
+                                            <div class="car_right">
+                                                <div class="color_swatch">
+                                                    <span class="color1"></span>
+                                                    <span class="color2"></span>
+                                                    <span class="color3"></span>
+                                                </div>
+                                                <div class="colorswatch_text">
+                                                    <img src="img/battery-small.png" alt="battery"/>
+                                                    <p>2 Hours to Charge | 240 Miles</p>
+                                                </div>
+                                                <a href="javascript:void(0)" class="save_btn">Shortlist EV</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="car_details.html">
+                                    <div class="car_box">
+                                        <img src="img/telsa_car.png" class="img-fluid" alt="car"/>
+                                        <div class="car_details">
+                                            <div class="car_left">
+                                                <h3>Tesla Model S</h3>
+                                                <h4>$12,959.00</h4>
+                                                <div class="star_ratings">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <p>2 reviews</p>
+                                                </div>
+                                            </div>
+                                            <div class="car_right">
+                                                <div class="color_swatch">
+                                                    <span class="color1"></span>
+                                                    <span class="color2"></span>
+                                                    <span class="color3"></span>
+                                                </div>
+                                                <div class="colorswatch_text">
+                                                    <img src="img/battery-small.png" alt="battery"/>
+                                                    <p>2 Hours to Charge | 240 Miles</p>
+                                                </div>
+                                                <a href="javascript:void(0)" class="save_btn">Shortlist EV</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="car_details.html">
+                                    <div class="car_box">
+                                        <img src="img/telsa_car.png" class="img-fluid" alt="car"/>
+                                        <div class="car_details">
+                                            <div class="car_left">
+                                                <h3>Tesla Model S</h3>
+                                                <h4>$12,959.00</h4>
+                                                <div class="star_ratings">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <p>2 reviews</p>
+                                                </div>
+                                            </div>
+                                            <div class="car_right">
+                                                <div class="color_swatch">
+                                                    <span class="color1"></span>
+                                                    <span class="color2"></span>
+                                                    <span class="color3"></span>
+                                                </div>
+                                                <div class="colorswatch_text">
+                                                    <img src="img/battery-small.png" alt="battery"/>
+                                                    <p>2 Hours to Charge | 240 Miles</p>
+                                                </div>
+                                                <a href="javascript:void(0)" class="save_btn">Shortlist EV</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="car_details.html">
+                                    <div class="car_box">
+                                        <img src="img/telsa_car.png" class="img-fluid" alt="car"/>
+                                        <div class="car_details">
+                                            <div class="car_left">
+                                                <h3>Tesla Model S</h3>
+                                                <h4>$12,959.00</h4>
+                                                <div class="star_ratings">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <p>2 reviews</p>
+                                                </div>
+                                            </div>
+                                            <div class="car_right">
+                                                <div class="color_swatch">
+                                                    <span class="color1"></span>
+                                                    <span class="color2"></span>
+                                                    <span class="color3"></span>
+                                                </div>
+                                                <div class="colorswatch_text">
+                                                    <img src="img/battery-small.png" alt="battery"/>
+                                                    <p>2 Hours to Charge | 240 Miles</p>
+                                                </div>
+                                                <a href="javascript:void(0)" class="save_btn">Shortlist EV</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Search Area -->
+
+        <!-- Start Footer Area -->
+        <footer>
+            <div class="footer_top">
+                <div class="row">
+                    <div class="col-lg-2 align-self-center">
+                        <a href="index.html"><img src="img/footer_logo.png" class="img-fluid" alt="footer-logo"/></a>
+                    </div>
+                    <div class="col-lg-2">
+                        <ul class="footer_links">
+                            <li><a href="javascript:void(0)">About us</a></li>
+                            <li><a href="javascript:void(0)">Customer Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <ul class="footer_links">
+                            <li><a href="javascript:void(0)">Register as a Dealer</a></li>
+                            <li><a href="javascript:void(0)">Privacy and Cookie Policy</a></li>
+                            <li><a href="javascript:void(0)">Orders and Returns</a></li>
+                            <li><a href="javascript:void(0)">Contact Us</a></li>
+                            <li><a href="javascript:void(0)">Be a Search Partner</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom text-center">
+                <p>© 2021 Evly Business Solutions Pvt. Ltd.</p>
+            </div>
+        </footer>
+        <!-- End Footer Area -->
+
+        <!-- jQuery js -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+        <!-- Bootstrap 4 dependency popper js  -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+        <!-- Bootstrap 4 js -->
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- mCustomScrollbar js -->
+        <script src="js/mCustomScrollbar.min.js" type="text/javascript"></script>
+        <!-- Slick js -->
+        <script src="js/slick.js" type="text/javascript"></script>
+        <!-- Evly js -->
+        <script src="js/custom.js" type="text/javascript"></script>
+    </body>
+</html>
